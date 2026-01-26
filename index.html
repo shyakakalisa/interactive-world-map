@@ -1,1 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interactive World Map</title>
 
+  <!-- Leaflet CSS -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>🌍 Interactive World Map</h1>
+    <p>Click on any country to explore facts, COVID stats, and travel tips.</p>
+  </header>
+
+  <main>
+    <div id="map"></div>
+
+    <section id="info-panel">
+      <h2>Country Information</h2>
+      <p>Click a country on the map</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built with Leaflet.js & Public APIs</p>
+  </footer>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <!-- Custom JS -->
+  <script src="app.js"></script>
+</body>
+</html>
